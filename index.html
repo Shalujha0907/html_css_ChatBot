@@ -6,15 +6,16 @@
       article {
         width: 400px;
         height: 400px;
-        border: 1px solid lightgrey;
+        border: 1px solid rgba(0, 0, 0, 0.3);
         margin: 200px 500px;
         padding: 40px;
       }
       h3 {
         font-weight: 100;
-        color: gray;
-        font-size: 42px;
-        margin: 10px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 39px;
+        margin: 7px;
+        font-family: sans-serif;
       }
       #underscore {
         font-weight: 900;
@@ -26,7 +27,7 @@
       p {
         font-size: 22px;
         text-align: left;
-        color: grey;
+        color: rgba(0, 0, 0, 0.5);
         font-weight: 100;
         font-family: sans-serif;
         border: 10px solid white;
@@ -45,6 +46,11 @@
         color: white;
         text-transform: uppercase;
       }
+
+      #instructions {
+        color: rgba(0, 0, 0, 0.35);
+        font-size: 16px;
+      }
     </style>
   </head>
   <body>
@@ -57,6 +63,10 @@
       </p>
 
       <div>try now →</div>
+      <p id="instructions">
+        By clicking try now you create an account and agree to our Terms and
+        Conditions and Privacy Policy.
+      </p>
     </article>
   </body>
 </html>
